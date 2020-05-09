@@ -7,4 +7,33 @@
         android:layout_height="match_parent"
         tools:context=".Alarm">
 
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:layout_editor_absoluteY="212dp"
+            tools:layout_editor_absoluteX="265dp" android:id="@+id/basicVertical">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="80dp" android:id="@+id/buttonSection">
+            <Button
+                    android:text="목록"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:id="@+id/listButton" android:layout_weight="1"/>
+            <Button
+                    android:text="종료"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:id="@+id/exitButton" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="437dp" android:id="@+id/emptySection">
+        </LinearLayout>
+        <Button
+                android:text="돌아가기"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" android:id="@+id/backButton"
+                android:onClick="onBackButtonClick"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
