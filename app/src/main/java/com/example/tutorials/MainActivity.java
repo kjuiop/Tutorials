@@ -22,4 +22,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), Alarm.class);
         startActivity(intent);
     }
+
+    public void onBtnEtc(View v) {
+        Intent intent = new Intent(getApplicationContext(), Etc.class);
+        startActivity(intent);
+    }
+
+    public void onBtnNavigation(View v) {
+        Intent intent = new Intent(getApplicationContext(), TutorialNavigation.class);
+        startActivity(intent);
+    }
 }
