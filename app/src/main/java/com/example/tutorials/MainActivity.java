@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
     public void onBtnNavigation(View v) {
         Intent intent = new Intent(getApplicationContext(), TutorialNavigation.class);
         startActivity(intent);
