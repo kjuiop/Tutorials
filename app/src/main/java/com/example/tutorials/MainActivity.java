@@ -32,4 +32,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), TutorialNavigation.class);
         startActivity(intent);
     }
+
 }
