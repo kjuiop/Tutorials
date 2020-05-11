@@ -51,7 +51,8 @@
                 <Button
                         android:text="Button"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent" android:id="@+id/button4" android:layout_weight="1"/>
+                        android:layout_height="match_parent" android:id="@+id/btnList" android:layout_weight="1"
+                        android:onClick="onBtnList" tools:text="LIST"/>
                 <Button
                         android:text="Button"
                         android:layout_width="wrap_content"

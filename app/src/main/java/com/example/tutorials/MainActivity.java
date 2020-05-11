@@ -1,9 +1,9 @@
 package com.example.tutorials;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,4 +34,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onBtnList(View v) {
+        Intent intent = new Intent(getApplicationContext(), ListContent.class);
+        startActivity(intent);
+    }
 }
