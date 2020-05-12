@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YoutubeActivity">
+
+    <LinearLayout
+        android:id="@+id/basicVertical"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtubeView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+            <Button
+                android:id="@+id/youtubeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:text="재생" />
+        </com.google.android.youtube.player.YouTubePlayerView>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onBackButtonClick"
+            android:text="돌아가기" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -42,4 +42,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), SendData.class);
         startActivity(intent);
     }
+
+    public void onBtnYoutube(View v) {
+        Intent intent = new Intent(getApplicationContext(), YoutubeActivity.class);
+        startActivity(intent);
+    }
 }
