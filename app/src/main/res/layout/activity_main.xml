@@ -49,14 +49,15 @@
                         android:layout_height="match_parent" android:id="@+id/btnNavigation" android:layout_weight="1"
                         android:onClick="onBtnNavigation"/>
                 <Button
-                        android:text="Button"
+                        android:text="List"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent" android:id="@+id/btnList" android:layout_weight="1"
                         android:onClick="onBtnList" tools:text="LIST"/>
                 <Button
-                        android:text="Button"
+                        android:text="SEND"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent" android:id="@+id/button5" android:layout_weight="1"/>
+                        android:layout_height="match_parent" android:id="@+id/btnSend" android:layout_weight="1"
+                        android:onClick="onBtnSend"/>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
     public void onBtnNavigation(View v) {
         Intent intent = new Intent(getApplicationContext(), TutorialNavigation.class);
         startActivity(intent);
@@ -36,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onBtnList(View v) {
         Intent intent = new Intent(getApplicationContext(), ListContent.class);
+        startActivity(intent);
+    }
+
+    public void onBtnSend(View v) {
+        Intent intent = new Intent(getApplicationContext(), SendData.class);
         startActivity(intent);
     }
 }
