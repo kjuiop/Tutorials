@@ -32,7 +32,6 @@ public class YoutubeActivity extends AppCompatActivity {
 
             @Override
             public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-
             }
         };
 
