@@ -47,4 +47,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), YoutubeActivity.class);
         startActivity(intent);
     }
+
+    public void onBtnSlider(View v) {
+        Intent intent = new Intent(getApplicationContext(), Slider.class);
+        startActivity(intent);
+    }
 }
