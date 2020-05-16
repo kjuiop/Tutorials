@@ -42,6 +42,7 @@ public class YoutubeActivity extends AppCompatActivity {
                 youtubeView.initialize("AIzaSyDWeDT9BxiATAPNENfvTV_JCdPOSi8P2Ts", listener);
             }
         });
+
     }
 
     public void onBackButtonClick(View v) {
